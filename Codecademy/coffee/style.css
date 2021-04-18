@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 30, 0)
+}
+
+.banner{
+    height:550px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.banner{
+    background-image: url("images/paster2banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1{
+    color: #005000;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+    height: 100px;
+}
+h1#bannertext{
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+#introduction{
+    text-align: center;
+}
+
+h2#introductoryhead{
+    margin-top: 40px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-style: italic;
+}
+
+h2{
+    font-family: Arial;
+    text-align: center;
+    color:white;
+    font-size:18px;
+    letter-spacing: 2px;
+    
+}
+p{
+    color: white;
+    font-family: sans-serrif;
+    font-size: 13px;
+    margin: 5px auto;
+    text-transform: lowercase;
+    line-height: 18px;
+    min-width: 300px;
+    max-width: 600px;
+
+}
+
+#varieties{
+    margin-top: 20px;
+    text-align: center;
+}
+.variety{
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+.variety1{
+    background-color: hsl(60, 50%, 30%)
+}
+
+.variety2{
+    background-color: hsl(0, 50%, 30%)
+}
+.variety3{
+    background-color: hsl(240, 50%, 30%)
+}
+img{
+    margin: 30px 0px;
+    object-fit: cover;
+}

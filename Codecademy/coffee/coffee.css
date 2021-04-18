@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #C4C5A0;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.banner{
+    background-image: url("images/coffee3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+
+}
+
+
+.banner .textbanner{
+    color: #543633;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    margin-top: 270px;
+
+}
+
+main{
+    margin: 80px 0px 10px 0px;
+    background-color: #C4C5A0;
+    height: 800px;
+    width: 1000px;
+    margin: 80px auto;
+
+}
+
+/* types */
+
+.types{
+    color: white;
+    width: 100%
+    display: grid;
+
+}
+.green{
+    background-color: rgb(24, 18, 97);
+    padding: 20px;
+    width: 900px;
+}
+
+.light{
+    background-color: rgb(89, 20, 72);
+    padding: 20px;
+    width: 900px;
+}
+
+.city{
+    background-color: rgb(50, 52, 0);
+    padding: 20px;
+    width: 900px;
+}
+
+.vienna{
+    background-color: rgb(38, 65, 40);
+    padding: 20px;
+    width: 900px;
+}
+
+.italian{
+    background-color: rgb(9, 34, 44);
+    padding: 20px;
+    width: 900px;
+}
+#Typography
+
+h1{
+    color: #ffffff
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+h2{
+    color: #ffffff
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: Georgia;
+
+}
+
+p{
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 16px;
+}

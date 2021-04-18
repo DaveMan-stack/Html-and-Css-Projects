@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+html{
+    font-size: 25px;
+}
+.banner{
+    display: block;
+    position: relative;
+    color: rgb(0, 0, 77);
+    background-color: rgb(36, 34, 34);;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.banner h1{
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 0.5em;
+    background-color: rgb(0,0,0)
+}
+
+.story{
+    width: 100%;
+    height: auto;
+
+    padding: 20px;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+}
+
+.story .story-text{
+    font-size: 18px;
+    font-family: Helvetica;
+    font-style: italic;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.writer{
+    margin-top: 10px;
+    display: block;
+}
+
+.skills{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0,0,0);
+    text-align: center;
+
+}
+.skill{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0,0,0);
+    color: white;
+    border: 2px solid blue;
+    margin: 20px 10px 10px 10px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.skill h2{
+    font-family: Georgia;
+    font-size: 1em;
+    text-decoration: underline;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.skill p{
+    font-family: sans-serrif;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    height: auto;
+    width: 100%;
+}

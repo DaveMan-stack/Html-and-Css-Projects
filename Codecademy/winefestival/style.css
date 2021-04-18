@@ -1,0 +1,35 @@
+body{
+	background: indigo;
+	font-family: sans-serrif;
+	font-size:18px;
+	
+}
+h1{
+	background: orange;
+}
+#main_table{	
+	border: 2px;
+	border-color: orange;
+}
+.main_heading{
+	height: 60px;
+	font-size: 25px;
+	background: orange;
+}
+.second_heading{
+	height: 60px;
+	color: orange
+}
+td{
+	height:65px;
+	color: orange;
+}
+.col1{
+	width:150px;
+	font-size: 20px;
+	
+}
+.col2{
+	width:350px;
+	font-size: 20px;
+}

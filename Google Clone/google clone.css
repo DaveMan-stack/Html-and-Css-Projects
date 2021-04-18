@@ -1,0 +1,52 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('bkimg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	font-family: Roboto, arial, sans-serif;
+}
+#main_heading{
+	position: fixed;
+	margin-top: 180px;
+	margin-left: 450px;
+	font-size: 85px;
+}
+ul{
+	float: right;
+	margin-right: 20px;
+	padding: 10px;
+
+}
+li{
+	display: inline;
+	margin: 10px;
+}
+.anchor_nav{
+
+	transform: uppercase;
+	font-weight: 46px;	
+}
+.anchor_nav:hover{
+	text-underline-position: bottom;
+	animation: 0.5s
+
+}
+form{
+	position: fixed;
+	float: left;
+	height: 550px;
+	margin: 300px;
+	margin-left:320px ;
+}
+input[type=text]{
+	width: 320%;
+	height: 40px;
+	box-sizing: border-box;
+	border: white;
+	border-radius: 20px;
+}

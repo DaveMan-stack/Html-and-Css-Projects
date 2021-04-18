@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-color: #0d0c0c;
+    
+}
+main{
+    background-color: #0d0c0c;
+    color: white!important;
+}
+nav{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #0d0c0c;
+}
+#navul{
+    height: 300px;
+    position: relative;
+    display: block;
+}
+.navlist{
+    height: 60px;
+    display: block;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+.navlink{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin-top: 15px;
+}
+.navlink:hover{
+    color: #c7dbed;
+    font-size: 28px;
+}
+
+#mainartheading{
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+#firstarticle{
+    position: relative;
+    display: block;
+
+    
+}
+#secondarticle{
+    position: relative;
+    display: block;
+}
+#mainartheading{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+	min-width: 200px;
+}
+
+
+#content{
+    line-height: 30px;
+    
+    margin-left: 10px;
+    margin-right: 20px;
+
+}
+
+h2{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-style: italic;
+    text-align: center;
+}
+p{
+    max-width: 600px;
+    min-width: 200px;
+    margin: 0 auto; 
+
+}
+
+#second_sec{
+    margin: 0 auto;
+}
+#articlefooter{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 10px;
+}
+
+#second_sec{
+    text-align: center;
+}
+
+figure{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border: 3px solid #0d1d2b;
+    border-radius: 10px;
+
+}
+
+
+
+img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+figcaption{
+    margin: 0 auto;
+    background-color: black;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px solid #0d1d2b;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+a{
+    font-family: Georgia;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+#videosec{
+    width: 500px;
+}
+video{
+    width: 490px;
+    height: 300px;
+    object-fit: cover;
+    
+}
